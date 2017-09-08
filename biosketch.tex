@@ -1,0 +1,89 @@
+\documentclass[svgnames,11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{etoolbox}
+\usepackage[english]{babel}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+\title{%
+        \vspace{-2\baselineskip}
+            \normalsize
+            {\textbf{Arun S. Seetharam }}\\
+            \vspace{0.5\baselineskip}
+            \hrule
+            \vspace{0.5\baselineskip}
+            Genome Informatics Facility, Office of Biotechnology, Iowa State University, Ames, IA-50014 \\
+            \textit{e-mail:} arnstrm@iastate.edu,
+            \textit{phone}: +1 (515) 294-6407
+        \vspace{-1.5ex}
+}        
+\date{}
+\begin{document}
+\maketitle
+\vspace{-4\baselineskip}
+\subsection*{(a) Professional Preparation}
+\begin{table}[H]
+\centering
+\begin{tabular}{llr}
+\hline
+Institute                                                & Major          & Degree, Year            \\ \hline
+University of Agricultural Sciences, Bangalore, India    & Agriculture    & Bachelors, 2003       \\
+University of Agricultural Sciences, Dharwar, India      & Biotechnology  & Masters, 2006       \\
+Indiana State University, Terre Haute, IN, United States & Biology        & Doctoral, 2012              \\
+Purdue University, West Lafayette, IN, United States     & Bioinformatics & Post-Doctoral, 2012-2013 \\
+Iowa State University, Ames, IA, United States           & Bioinformatics & Post-Doctoral, 2014-2016 \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection*{(b) Appointments}
+\begin{table}[H]
+\centering
+\begin{tabular}{ll}
+2016-present & Associate Scientist, Genome Informatics Facility, Iowa State University, IA         \\
+2014-2016   & Post-doc research associate, Genome Informatics Facility, Iowa State University, IA \\
+2012-2013   & Post-doc research associate, Bioinformatics Core, Purdue University, IN             \\
+2011-2012   & Adjunct Faculty, Biology department, Indiana State University, IN                   \\
+2007-2011   & Teaching Assistant, Biology department, Indiana State University, IN                \\
+2006-2007   & Research Associate, Institute of Agri-Biotechnology, India.                        
+\end{tabular}
+\end{table}
+\subsection*{(c) Products}
+
+\nocite{cao2017rapid}
+\nocite{seetharam2013whole}
+\nocite{xue2015crispr}
+\nocite{seetharam2010survey}
+\nocite{seetharam2013study}
+\nocite{seetharam2012whole}
+\nocite{seetharam2015ncbi}
+%\nocite{cao2017centromeric}
+%\nocite{seetharam2015microbiome}
+%\nocite{rajkumar2013molecular}
+%\nocite{reddy2007molecular}
+%\nocite{chowdhury2016study}
+%\nocite{cullen2017microbial}
+\bibliographystyle{acm}
+\bibliography{seetharam}
+
+\subsection*{(d) Synergistic Activities}
+\begin{enumerate}
+\item Publicly available, pipeline and scripts development (https://github.com/ISUgenomics and \\
+https://github.com/aseetharam). Some examples include:
+\begin{itemize}
+\item common\_analyses: repository for most commonly used programs optimized to run on clusters
+\item common\_scripts: repository for simple utility scripts to efficiently run or manipulate the NGS data.
+\item StampedeBLAST: Optimized NCBI-BLAST program pipeline for the XSEDE (Stampede) cluster.
+\item basic\_UNIX\_2015: workshop materials for the basic UNIX workshop, offered during summer, 2015 at Iowa State University.
+\end{itemize}
+\item Publicly available tutorials for NGS analyses (http://gif.biotech.iastate.edu/Tutorial): Actively contributed for developing a comprehensive wiki pages for performing NGS data analyses. The pages include many custom pipelines as well as custom scripts that can be readily used for specific problems.
+
+\item Guest lecturer: in the courses related to Phylogenomics/evolutionary biology (EEOB 561X, spring 2014, ENTM595 during fall 2013) and Next Generation Sequencing (GEN 349X during spring 2014). 
+
+\item Workshop instructor: Co-organized and instructed summer workshops on UNIX skills at Iowa State University. The audience included staff, faculty and various graduate students. This 4 hour crash course is conducted every year with 2 sessions during the summer months. I also instructed a one-day hands-on UNIX workshop (multiple times) for faculty and students of Purdue University (over 100 attendee's total). Developed teaching materials, data and slides for the interactive class session.
+
+\item Co-instructor: Co-taught graduate level course in Bioinformatics (BIO487/587, fall 2012) program. Shared responsibility for preparing lectures, exams, homework assignments, and grading. Taught under-graduate level lab in Genetics (BIO382L, fall 2012) program. Full responsibility for lectures, exams, homework assignments, and grading.
+\end{enumerate}
+\end{document}
